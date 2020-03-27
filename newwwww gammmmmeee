@@ -7,8 +7,9 @@ if options == "switch":
   print("so i will call you",a,"?")
   sleep(0.5)
   input("Here is an average sentence: Alrighty Mate, Get ready for a ride!")
-  timetaker = input("For Story Assistance, how long does it take you to read an average sentence like that one?")
+  timetaker = int(input("For Story Assistance, how many seconds does it take you to read an average sentence like that one?"))
   print("Alrighty mate, get ready for a ride!")
+  sleep(timetaker)
   
 if options == "":
   a = input("Hello Player, Please Enter a name.")
